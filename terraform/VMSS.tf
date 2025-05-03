@@ -27,7 +27,7 @@ resource "azurerm_linux_virtual_machine_scale_set" "vmss" {
       subnet_id = azurerm_subnet.subnet_1.id
       primary   = true
       application_gateway_backend_address_pool_ids = [
-      element(azurerm_application_gateway.example.backend_address_pool[*].id, 0)
+      element(azurerm_application_gateway.appgw.backend_address_pool[*].id, 0)
       ]
     }
   }
