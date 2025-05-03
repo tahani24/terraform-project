@@ -51,7 +51,6 @@ terraform/
 
 2. **🔐 Generate SSH Key**
   To generate an SSH key named `id_rsa`, run the following command in your terminal:
-
   ```bash
   ssh-keygen -t rsa -b 4096 -f ~/.ssh/id_rsa
   ```
