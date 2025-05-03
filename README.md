@@ -54,7 +54,7 @@ terraform/
 
   ```bash
   ssh-keygen -t rsa -b 4096 -f ~/.ssh/id_rsa
-
+  ```
 
 3. **Edit the variables**
    Open `variables.tf` and update:
